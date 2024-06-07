@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Two-forty-two electronics store",
+      "imageSrc": "242.png",
+      "description": "An eccomerce store that specializes in electronic products",
+      "skills": ["React", "Express", "Node", "MongoDB", "JavaScript", "Firebase", "JWT"],
+      "demo": "https://two-forty-two.netlify.app",
+      "source": "https://github.com/sombas100/two-forty-two"
+    },
+    {
+      "title": "QuickeR code generator",
+      "imageSrc": "QR.png",
+      "description": "A personal QR code generator",
+      "skills": ["React", "TypeScript"],
+      "demo": "https://cc-quickercodegenerator.netlify.app",
+      "source": "https://github.com/sombas100/qr-code-generator"
+    },
+    {
+      "title": "Bittersweet",
+      "imageSrc": "bittersweet.png",
+      "description": "Blog Application",
+      "skills": ["React", "Express", "Node", "MongoDB", "JavaScript", "Firebase", "JWT"],
+      "demo": "https://bittersweet-c10.netlify.app",
+      "source": "https://github.com/sombas100/bittersweet"
+    }
+  ]
