@@ -12,20 +12,16 @@ const Navbar = () => {
         ccdev
       </a>
       <div className={styles.menu}>
-        {menuOpen ? (
-          <IoMdClose
-            onClick={() => setMenuOpen(!menuOpen)}
-            style={{ color: "white", cursor: "pointer" }}
-            size={35}
-          />
-        ) : (
-          <GiHamburgerMenu
-            style={{ color: "white", display: "block", cursor: "pointer" }}
-            className={styles.menuBtn}
-            size={35}
-            onClick={() => setMenuOpen(!menuOpen)}
-          />
-        )}
+        <img
+          className={styles.menuBtn}
+          src={
+            menuOpen
+              ? getImageUrl("closeIcon.png")
+              : getImageUrl("menuIcon.png")
+          }
+          alt="menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
+        />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => {
