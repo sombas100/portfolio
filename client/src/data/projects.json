@@ -2,7 +2,7 @@
     {
       "title": "Two-forty-two electronics store",
       "imageSrc": "242.png",
-      "description": "An eccomerce store that specializes in electronic products",
+      "description": "An eccomerce store that specializes in electronic products. TEST ACCOUNT signin, Email : testuser987@hotmail.com   Password: testuser987" ,
       "skills": ["React", "Express", "Node", "MongoDB", "JavaScript", "Firebase", "JWT"],
       "demo": "https://two-forty-two.netlify.app",
       "source": "https://github.com/sombas100/two-forty-two"

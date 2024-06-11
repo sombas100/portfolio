@@ -11,12 +11,12 @@ const Hero = () => {
           I'm a full-stack developer using React & NodeJS. Reach out if you
           would like to learn more!
         </p>
-        <a href="mailto:sombas100@yahoo.com" className={styles.contactBtn}>
-          Contact Me
+        <a href="/assets/CV.pdf" download className={styles.contactBtn}>
+          Download CV
         </a>
       </div>
       <img
-        src={getImageUrl("hero.png")}
+        src={getImageUrl("portfolio5.jpg")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
