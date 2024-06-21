@@ -1,7 +1,7 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
-import resume from "../../images/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 const Hero = () => {
   return (
@@ -15,7 +15,11 @@ const Hero = () => {
           Specifically I have vast knowledge of ReactJS and NodeJS, which allow
           me to build complex and dynamic applications with ease.
         </p>
-        <a href={resume} download="Resume" className={styles.contactBtn}>
+        <a
+          href={resume}
+          download="Corey_Resume.pdf"
+          className={styles.contactBtn}
+        >
           Download CV
         </a>
       </div>
