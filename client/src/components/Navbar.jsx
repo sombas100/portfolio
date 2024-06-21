@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../utils";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState("false");

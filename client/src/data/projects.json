@@ -8,6 +8,22 @@
       "source": "https://github.com/sombas100/two-forty-two"
     },
     {
+      "title": "Staffify",
+      "imageSrc": "staffify.png",
+      "description": "Staff, payment and attendance management web application",
+      "skills": ["React", "Express", "Node", "MongoDB", "TypeScript", "Flowbite","TailWind", "JWT"],
+      "demo": "https://staffify.netlify.app/",
+      "source": "https://github.com/sombas100/staffify"
+    },
+    {
+      "title": "Popshake",
+      "imageSrc": "popshake.png",
+      "description": "Recipe finder application",
+      "skills": ["React", "TypeScript"],
+      "demo": "https://popshake.netlify.app/",
+      "source": "https://github.com/sombas100/popshake"
+    },
+    {
       "title": "QuickeR code generator",
       "imageSrc": "QR.png",
       "description": "A personal QR code generator",

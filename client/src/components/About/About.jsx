@@ -8,7 +8,7 @@ const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("avatartemp.jpg")}
+          src={getImageUrl("portfolio12.jpg")}
           alt="Me coding"
           className={styles.aboutImage}
         />
