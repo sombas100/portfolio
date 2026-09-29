@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#081c28">
+  <meta name="description" content="Corey Clarke is a London-based software engineer building full-stack products, client platforms and cloud-ready systems.">
+  <title>Corey Clarke — Software Engineer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23081c28'/%3E%3Cpath d='M45 19a19 19 0 1 0 0 26' fill='none' stroke='%235ae0ca' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="mark" href="#top" aria-label="Corey Clarke, back to top">C<span>.</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#about"><span>01.</span> About</a>
+      <a href="#experience"><span>02.</span> Experience</a>
+      <a href="#work"><span>03.</span> Work</a>
+      <a href="#contact"><span>04.</span> Contact</a>
+    </nav>
+  </header>
+
+  <aside class="side side-left" aria-label="Social profiles">
+    <a href="https://github.com/sombas100" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+    <a href="https://www.linkedin.com/in/corey-clarke100" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN</a>
+    <span class="side-line"></span>
+  </aside>
+  <aside class="side side-right"><a href="mailto:Sombas100@yahoo.com">Sombas100@yahoo.com</a><span class="side-line"></span></aside>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <p class="eyebrow">Hi, I’m Corey Clarke.</p>
+      <h1 id="hero-title">I build products<br><em>from idea to launch.</em></h1>
+      <p class="hero-copy">I’m a London-based software engineer working across React, TypeScript, Node.js and PostgreSQL. I’ve built production SaaS products and client platforms, and I’m growing deeper into cloud systems with Go.</p>
+      <div class="hero-actions"><a class="button" href="#work">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="mailto:Sombas100@yahoo.com">Get in touch <span aria-hidden="true">↗</span></a></div>
+      <p class="hero-footnote">FULL-STACK ENGINEERING <span>·</span> LONDON, UK</p>
+    </section>
+
+    <section class="section wrap about" id="about" aria-labelledby="about-title">
+      <div class="section-head"><span>01 / ABOUT</span><h2 id="about-title">A little about me<span class="dot">.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p>I like taking a product from a rough idea to something people can actually use. That means thinking through the interface, API, data model, payments, deployment and all the details in between.</p><p>At Softu, I worked in a four-person development team on client websites and applications. Independently, I’ve built <a href="https://xuris.io/" target="_blank" rel="noopener noreferrer">Xuris</a>, an AI-assisted job-search platform, and delivered a consultation booking and payments system for a medical client.</p><p>Right now, I’m sharpening my software fundamentals and exploring Go, Linux and cloud engineering.</p><div class="skills"><span>TypeScript</span><span>React & Next.js</span><span>Node.js</span><span>PostgreSQL</span><span>Prisma</span><span>AWS</span><span>Docker</span><span>Go</span></div></div>
+        <div class="portrait-frame"><img src="assets/corey.jpg" alt="Portrait of Corey Clarke" loading="lazy"><span class="portrait-label">ENGINEER / BUILDER</span></div>
+      </div>
+    </section>
+
+    <section class="section wrap experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-head"><span>02 / EXPERIENCE</span><h2 id="experience-title">Where I’ve worked<span class="dot">.</span></h2></div>
+      <div class="experience-grid"><div class="tabs" role="tablist" aria-label="Experience"><button role="tab" id="tab-softu" aria-controls="panel-softu" aria-selected="true" tabindex="0">Softu LTD</button><button role="tab" id="tab-freelance" aria-controls="panel-freelance" aria-selected="false" tabindex="-1">Freelance</button></div>
+        <div class="tab-panel" role="tabpanel" id="panel-softu" aria-labelledby="tab-softu"><h3>Full-Stack Developer Intern <span>@ Softu LTD</span></h3><p class="date">FEBRUARY 2025 — MAY 2025</p><ul><li>Built reusable React components and contributed to client websites and applications in a four-person engineering team.</li><li>Worked with senior developers through task reviews and GitHub code reviews, with Vitest used to check application behavior.</li><li>Helped deliver three websites and two applications to production.</li></ul></div>
+        <div class="tab-panel" role="tabpanel" id="panel-freelance" aria-labelledby="tab-freelance" hidden><h3>Full-Stack Developer <span>@ Freelance</span></h3><p class="date">MARCH 2023 — PRESENT</p><ul><li>Worked directly with clients to define requirements and turn them into deployed web applications.</li><li>Built a subscription, appointment and payment platform for a medical consultancy using Next.js, PostgreSQL, Prisma and Paystack.</li><li>Owned the process from interface and database design through deployment and client handoff.</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section wrap work" id="work" aria-labelledby="work-title"><div class="section-head"><span>03 / SELECTED WORK</span><h2 id="work-title">Things I’ve built<span class="dot">.</span></h2></div>
+      <article class="project"><a class="project-image" href="https://xuris.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit Xuris"><img src="assets/xuris.png" alt="Xuris dashboard preview" loading="lazy"></a><div class="project-detail"><p class="project-index">01 <span>FEATURED PROJECT</span></p><h3><a href="https://xuris.io/" target="_blank" rel="noopener noreferrer">Xuris <span aria-hidden="true">↗</span></a></h3><p>An AI-assisted job search platform I designed and launched. It brings resume analysis, job matching, interview preparation, cover letters and application tracking into one workflow.</p><ul class="stack"><li>React</li><li>TypeScript</li><li>Express</li><li>PostgreSQL</li><li>Prisma</li><li>AWS S3</li></ul></div></article>
+      <article class="project reverse"><a class="project-image" href="https://lanredurojaiye-consultancy.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Durojaiye Consultancy"><img src="assets/durojaiye.png" alt="Durojaiye Consultancy website preview" loading="lazy"></a><div class="project-detail"><p class="project-index">02 <span>CLIENT PROJECT</span></p><h3><a href="https://lanredurojaiye-consultancy.com/" target="_blank" rel="noopener noreferrer">Durojaiye Consultancy <span aria-hidden="true">↗</span></a></h3><p>A consultation platform for a medical client. Patients can subscribe, book appointments and pay online, while the doctor manages availability and appointments through an admin dashboard.</p><ul class="stack"><li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Prisma</li><li>Paystack</li></ul></div></article>
+      <article class="project"><a class="project-image" href="https://hireflowjobs.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit Hireflow"><img src="assets/hireflow.png" alt="Hireflow job board preview" loading="lazy"></a><div class="project-detail"><p class="project-index">03 <span>INDEPENDENT PROJECT</span></p><h3><a href="https://hireflowjobs.io/" target="_blank" rel="noopener noreferrer">Hireflow <span aria-hidden="true">↗</span></a></h3><p>A job board focused on genuine junior developer opportunities, with employer and candidate workflows, role-based access and resume uploads.</p><ul class="stack"><li>Next.js</li><li>TypeScript</li><li>Auth.js</li><li>PostgreSQL</li><li>Redis</li></ul></div></article>
+      <article class="project reverse"><a class="project-image" href="https://portora.net/welcome" target="_blank" rel="noopener noreferrer" aria-label="Visit Portora"><img src="assets/portora.png" alt="Portora client portal preview" loading="lazy"></a><div class="project-detail"><p class="project-index">04 <span>INDEPENDENT PROJECT</span></p><h3><a href="https://portora.net/welcome" target="_blank" rel="noopener noreferrer">Portora <span aria-hidden="true">↗</span></a></h3><p>A client portal for freelancers and their clients to manage projects, exchange files, share feedback and track progress in one workspace.</p><ul class="stack"><li>React</li><li>Node.js</li><li>Socket.IO</li><li>PostgreSQL</li><li>Stripe</li></ul></div></article>
+    </section>
+
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><span class="eyebrow">04 / WHAT’S NEXT?</span><h2 id="contact-title">Let’s build something<br><em>useful together.</em></h2><p>I’m interested in software engineering opportunities and thoughtful product work. If something here caught your eye, I’d be glad to talk.</p><a class="button" href="mailto:Sombas100@yahoo.com">Say hello <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><div class="wrap"><span>© <span id="year">2026</span> Corey Clarke</span><span>Built with care in London.</span><div><a href="https://github.com/sombas100" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/corey-clarke100" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
